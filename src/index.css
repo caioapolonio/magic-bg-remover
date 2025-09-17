@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@keyframes star {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4) rotate(20deg);
+    opacity: 0.6;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-star {
+  display: inline-block;
+  animation: star 1.2s ease-in-out infinite;
+}
+
+.animate-star.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}
