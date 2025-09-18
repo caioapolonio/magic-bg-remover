@@ -31,7 +31,7 @@ Users can **drag & drop** (or select) an image, preview both the original and pr
 Clone the repository and install dependencies using **npm**:
 
 ```bash
-git clone https://github.com/caioapolonio/magic-bg-remover
+git clone https://github.com/caioapolonio/magic-bg-remover.git
 cd magic-bg-remover
 npm install
 npm run dev
